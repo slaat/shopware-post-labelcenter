@@ -1,0 +1,27 @@
+{
+  "name": "acl/greenfield-sdk",
+  "description": "ACL GreenField PHP SDK library - makes communication with ACL APIs easier",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Tomaz Lovrec",
+      "email": "tomaz.lovrec@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "monolog/monolog": "^1.23",
+    "codeception/codeception": "^2.3",
+    "codeception/specify": "*",
+    "mockery/mockery": "^0.9",
+    "guzzlehttp/guzzle": "~5.0",
+    "phpdocumentor/phpdocumentor": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acl\\GreenField\\": "src"
+    }
+  }
+}

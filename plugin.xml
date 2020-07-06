@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Österreichische Post Label Center</label>
+    <label lang="en">Post Label Center Austria</label>
+
+
+    <version>1.1.3</version>
+    <link></link>
+    <author>Österreichische Post</author>
+    <compatibility minVersion="5.2.0" />
+
+    <changelog version="1.1.3">
+        <changes lang="de">Es wurde ein Problem mit dem Shopware plugin logger</changes>
+        <changes lang="en">fixed issue, with logger</changes>
+    </changelog>
+    <changelog version="1.1.2">
+        <changes lang="de">Es wurde ein Problem behoben, dass dazu führte das die Rechnungs und Lieferaddresse gemischt wurden</changes>
+        <changes lang="en">fixed issues that caused billing and deliveryaddress to be mixed</changes>
+    </changelog>
+
+    <changelog version="1.1.1">
+        <changes lang="de">fixed issues with subshops</changes>
+        <changes lang="en">fixed issues with subshops</changes>
+    </changelog>
+
+    <changelog version="1.1.0">
+        <changes lang="de">fixed issue loading the pdf</changes>
+        <changes lang="en">fixed issue loading the pdf</changes>
+    </changelog>
+
+    <changelog version="1.0.8">
+        <changes lang="de">added compatibiliy with version 5.6</changes>
+        <changes lang="en">added compatibiliy with version 5.6</changes>
+    </changelog>
+
+    <changelog version="1.0.7">
+        <changes lang="de">added höherversicherung</changes>
+        <changes lang="en">added höherversicherung</changes>
+    </changelog>
+
+    <changelog version="1.0.5">
+        <changes lang="de">shipping address added to ordermail</changes>
+        <changes lang="en">shipping address added to ordermail</changes>
+    </changelog>
+
+    <changelog version="1.0.4">
+        <changes lang="de">minor fix</changes>
+        <changes lang="en">minor fix</changes>
+    </changelog>
+
+    <changelog version="1.0.3">
+        <changes lang="de">added custom description and weight</changes>
+        <changes lang="en">added custom description and weight</changes>
+    </changelog>
+
+    <changelog version="1.0.2">
+        <changes lang="de">removed warning when creating new shippingset</changes>
+        <changes lang="en">removed warning when creating new shippingset</changes>
+    </changelog>
+
+    <changelog version="1.0.2">
+        <changes lang="de">removed warning when creating new shippingset</changes>
+        <changes lang="en">removed warning when creating new shippingset</changes>
+    </changelog>
+
+    <changelog version="1.0.1">
+        <changes lang="de">minor changes</changes>
+        <changes lang="en">minor changes</changes>
+    </changelog>
+
+</plugin>

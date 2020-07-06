@@ -1,0 +1,148 @@
+.tracking--container .tracking-cell-body {
+    border: 2px solid #f7e400;
+    margin: 0 10px;
+}
+.tracking--container .backend-logo-img {
+    float: left;
+    margin-right: 25px;
+}
+.tracking--container .backend-logo-img img {
+    width: 170px;
+}
+.tracking--container .tracking-div {
+    float: left;
+    width: 100%;
+}
+.tracking--container .tracking-track {
+    background-color: white;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.tracking--container .tracking-track-title {
+    color: #222;
+    font-size: 18px;
+    line-height: 62px;
+    font-weight: 500;
+    font-family: Arial Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 10px;
+}
+.tracking--container .tracking-track-icon {
+    width: 25%;
+    position: relative;
+    text-align: center;
+    color: #666;
+}
+.tracking--container .tracking-track-active {
+    color: #1687af;
+}
+.tracking-track-active:before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #fbf39e transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+    transform: rotate(90deg);
+
+    position: relative;
+    top: 41px;
+    left: 50px;
+}
+.tracking--container .tracking-float-right {
+    float: right;
+}
+.tracking--container .tracking-float-left {
+    float: left;
+}
+.tracking--container .tracking-clear-both {
+    clear: both;
+}
+.tracking--container .tracking-cell-head {
+    background-color: #fbf39e;
+    padding: 10px;
+    border-bottom: 2px solid #f7e400;
+}
+.tracking--container .tracking-cell {
+    background-color: #FDF8BF;
+    font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #9e9a72;
+    font-weight: 700;
+    border-bottom: 4px solid white;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.tracking--container .tracking-cell-last {
+    border-bottom: none;
+}
+.tracking--container .tracking-cell-active {
+    color: black;
+    font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.tracking--container .tracking-title {
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 20px;
+}
+.tracking--container .tracking-date-text {
+    font-style: italic;
+}
+.tracking--container .tracking-cell-icon {
+    text-align: right;
+    min-width: 50px;
+    padding: 10px 10px 10px 30px;
+}
+.tracking--container .tracking-cell-icon img{
+    width: 40px;
+}
+.tracking--container .tracking-cell-text {
+    text-align: left;
+    padding: 10px;
+    min-height: 50px;
+}
+.tracking--container .tracking-red-notice-text {
+    color: #d9534f;
+    font-family: Arial Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: 2.5;
+}
+.tracking--container .tracking-black-text {
+    color: #222;
+    font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+.tracking--container .tracking-info-icon {
+    font-size: 40px;
+    font-family: hel;
+    color: #1687af;
+    padding-right: 15px;
+
+}
+.tracking--container .tracking-tooltip .tracking-tooltiptext {
+    visibility: hidden;
+    min-width: 120px;
+    max-width: 250px;
+    padding: 15px;
+    background-color: #fbf39e;
+    color: #222;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+    border-radius: 3px;
+    border: 1px solid #dadae5;
+
+    position: absolute;
+    z-index: 1;
+    right: 10%;
+}
+.tracking--container .tracking-tooltip:hover .tracking-tooltiptext {
+    visibility: visible;
+}
+
+.posthorn-logo-small {
+    background: url("../images/posthorn_logo_small.png") no-repeat 0 4px !important;
+}

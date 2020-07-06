@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/menu.xsd">
+
+    <entries>
+        <entry>
+            <name>PostLabels</name>
+            <label lang="en">Daily statement</label>
+            <label lang="de">Tagesabschluss</label>
+            <controller>PostDailyStatement</controller>
+            <action>Index</action>
+            <class>posthorn-logo-small</class>
+            <parent identifiedBy="controller">Order</parent>
+        </entry>
+
+        <entry>
+            <name>PostPluginConfiguration</name>
+            <label lang="en">Post labels plugin settings</label>
+            <label lang="de">Post-Labelcenter Einstellungen</label>
+            <controller>PostPluginConfiguration</controller>
+            <action>Index</action>
+            <class>posthorn-logo-small</class>
+            <parent identifiedBy="controller">ConfigurationMenu</parent>
+        </entry>
+
+    </entries>
+</menu>
